@@ -3,11 +3,13 @@ import '../styles/Navbar.css'
 
 export default function Navbar() {
     return (
-      <div className="nav-main">
+      <>
+      <img src='/AlumniSphere.jpg' ></img>
+       <div className="nav-main">
         <div className="nav-icon">
-         <strong>ReferralShala</strong>
+         Referral
         </div>
-        <div className="nav-links-container">
+        <div className="nav-links-container ">
             <Link href="/auth/sign-in" className="nav-link">
               Login
             </Link>
@@ -19,6 +21,11 @@ export default function Navbar() {
             </Link>
         </div>
       </div>
+      <div>
+        Uniting experience with ambition.
+        </div>
+      </>
+      
     );
   }
   
